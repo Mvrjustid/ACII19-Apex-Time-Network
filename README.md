@@ -10,19 +10,19 @@ Caffe：https://github.com/BVLC/caffe/
   
   
 # Prepare
-* Download the database (option)  
+* Download the database (optional)  
   CASMEII: http://fu.psych.ac.cn/CASME/casme2-en.php  
   SAMM: http://www2.docm.mmu.ac.uk/STAFF/m.yap/dataset.php  
   SMIC: https://www.oulu.fi/cmvs/node/41319  
   
-* if you wann't to download the original database, the **Data** fold contain all the needed data for this repositories.  
-  1. **Add_python_layers** contain a *.py* scrip that for image and point data load in Caffe.  
-  2. **Apex_Cropped_images** contains all the Apex images of three Database (namely: CASMEII   SAMM   SMIC).  **Apex_Cropped_images.txt** contains image root and label in **Apex_Cropped_images** fold.  
+* if you want to download the original database, the **Data** fold contain all the needed data for this repositories.  
+  1. **Add_python_layers** contains a *.py* scrip that is for image and point data loading in Caffe.  
+  2. **Apex_Cropped_images** contains all the Apex frames of three Database (namely: CASMEII   SAMM   SMIC).                  **Apex_Cropped_images.txt** contains image root and label in **Apex_Cropped_images** fold.  
   3. **OpticalFlowFeatureData.txt** is the temporal features described in our paper.  
     
   
   
-# ATN
+# ATNet
 This fold is our proposed network for Cross-Dataset Micro-Expression Recognition.  
   
 * **CDE** is the Composite Database Evaluation. For CASMEII_sub01, it means all samples (from the full consolidated database) are used for training except sub01 in CASMEII.  
@@ -32,8 +32,9 @@ This fold is our proposed network for Cross-Dataset Micro-Expression Recognition
 * Notice: for each tries, you can use the *get_samples_Train_Test_TXT.py* to get the .txt list.
   
 * How to run  
-Take the CASMEII_sub01 fold for example, you just need to change your root in ../ACII19-Apex-Time-Network-master/, and then run: sh train_net.sh in the terminal.  
-  
+Take the CASMEII_sub01 fold for example, you just need to change your root to ../ACII19-Apex-Time-Network-master/, and then run: 
+sh train_net.sh 
+in the terminal.  
   
   
 # MicroAttentionNet(Compared)
@@ -61,13 +62,13 @@ The optical method for HOOF is refer to https://www.researchgate.net/publication
   
 If it is helpful, please cite:  
   
-A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition. https://www.researchgate.net/publication/332259425_A_Novel_Apex-Time_Network_for_Cross-Dataset_Micro-Expression_Recognition?_sg=diGU1pnYWL7jyG27PigpTGSgGICMIcJsBVUvzS9L7JnOVYtp5Mc-zzDd45vy3xh0KZH5F67mIPFGFk3yKUlZvshslwHCR9PDB8ncvkNO.RwlNqjQR1J3Gf3mVvxE2nVKVCUIlyY78jnALqP2FlzD_qa_WWG1bUhRSNKPfBQ85rBKOigKyblpeKjQ7HItCLA
-  
+A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition. Min Peng, Chongyang Wang, Tao Bi, Tong Chen, Xiangdong Zhou, Yu shi. arXiv preprint arXiv:1904.03699, 2019.
+
 Micro-Attention for Micro-Expression recognition. Chongyang Wang, Min Peng, Tao Bi, Tong Chen. arXiv preprint arXiv:1811.02360, 2018.  
-  
-From Macro to Micro Expression Recognition: Deep Learning on Small Datasets Using Transfer Learning. Min Peng, Wu Zhan, Zhihao Zhang, Tong Chen. IEEE International Conference on Automatic Face & Gesture Recognition 2018.  
-  
-Dual temporal scale convolutional neural network for micro-expression recognition. Min Pen, Chongyang Wang, Tong Chen. Frontiers in psychology.
+
+From Macro to Micro Expression Recognition: Deep Learning on Small Datasets Using Transfer Learning. Min Peng, Wu Zhan, Zhihao Zhang, Tong Chen. IEEE International Conference on Automatic Face & Gesture Recognition, 2018.  
+
+Dual temporal scale convolutional neural network for micro-expression recognition. Min Pen, Chongyang Wang, Tong Chen. Frontiers in psychology.2017.
 
 
 
