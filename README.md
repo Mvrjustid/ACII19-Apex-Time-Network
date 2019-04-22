@@ -62,7 +62,7 @@ The optical method for HOOF is refer to https://www.researchgate.net/publication
   
 If it is helpful, please cite:  
   
-A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition. Min Peng, Chongyang Wang, Tao Bi, Tong Chen, Xiangdong Zhou, Yu shi. arXiv preprint arXiv:1904.03699, 2019.
+A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition. arXiv preprint arXiv:1904.03699, 2019.
 
 Micro-Attention for Micro-Expression recognition. Chongyang Wang, Min Peng, Tao Bi, Tong Chen. arXiv preprint arXiv:1811.02360, 2018.  
 
