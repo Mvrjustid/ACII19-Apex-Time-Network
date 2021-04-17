@@ -1,7 +1,6 @@
 # ACII19-Apex-Time-Network
 [![GitHub stars](https://img.shields.io/github/stars/Mvrjustid/ACII19-Apex-Time-Network)](https://github.com/Mvrjustid/ACII19-Apex-Time-Network)
 [![GitHub folks](https://img.shields.io/github/forks/Mvrjustid/ACII19-Apex-Time-Network)](https://github.com/Mvrjustid/ACII19-Apex-Time-Network)
-[![GitHub](https://img.shields.io/github/license/Mvrjustid/ACII19-Apex-Time-Network)](https://github.com/Mvrjustid/ACII19-Apex-Time-Network)
 [![GitHub issues](https://img.shields.io/github/issues/Mvrjustid/ACII19-Apex-Time-Network)](https://github.com/Mvrjustid/ACII19-Apex-Time-Network/issues)
 [![My achievement](https://img.shields.io/badge/Milestone-1st%20ACII-orange)](https://scholar.google.com/citations?user=H7VBxLgAAAAJ&hl=en)
 
