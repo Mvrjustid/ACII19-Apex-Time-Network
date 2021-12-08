@@ -67,18 +67,23 @@ The optical method for HOOF is refer to https://www.researchgate.net/publication
   
 If it is helpful, please cite:  
   
-A Novel Apex-Time Network for Cross-Dataset Micro-Expression Recognition. arXiv preprint arXiv:1904.03699, 2019.
+@inproceedings{peng2019novel,
+  title={A novel apex-time network for cross-dataset micro-expression recognition},
+  author={Peng, Min and Wang, Chongyang and Bi, Tao and Shi, Yu and Zhou, Xiangdong and Chen, Tong},
+  booktitle={2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}
 
-Micro-Attention for Micro-Expression recognition. Chongyang Wang, Min Peng, Tao Bi, Tong Chen. arXiv preprint arXiv:1811.02360, 2018.  
+@article{wang2020micro,
+  title={Micro-attention for micro-expression recognition},
+  author={Wang, Chongyang and Peng, Min and Bi, Tao and Chen, Tong},
+  journal={Neurocomputing},
+  volume={410},
+  pages={354--362},
+  year={2020},
+  publisher={Elsevier}
+}
 
-From Macro to Micro Expression Recognition: Deep Learning on Small Datasets Using Transfer Learning. Min Peng, Wu Zhan, Zhihao Zhang, Tong Chen. IEEE International Conference on Automatic Face & Gesture Recognition, 2018.  
 
-Dual temporal scale convolutional neural network for micro-expression recognition. Min Pen, Chongyang Wang, Tong Chen. Frontiers in psychology.2017.
-
-
-
-
-
-
-
-  
