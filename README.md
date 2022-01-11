@@ -66,7 +66,7 @@ The optical method for HOOF is refer to https://www.researchgate.net/publication
 # Citation
   
 If it is helpful, please cite:  
-  
+```
 @inproceedings{peng2019novel,
   title={A novel apex-time network for cross-dataset micro-expression recognition},
   author={Peng, Min and Wang, Chongyang and Bi, Tao and Shi, Yu and Zhou, Xiangdong and Chen, Tong},
@@ -75,7 +75,8 @@ If it is helpful, please cite:
   year={2019},
   organization={IEEE}
 }
-
+```
+```
 @article{wang2020micro,
   title={Micro-attention for micro-expression recognition},
   author={Wang, Chongyang and Peng, Min and Bi, Tao and Chen, Tong},
@@ -85,5 +86,5 @@ If it is helpful, please cite:
   year={2020},
   publisher={Elsevier}
 }
-
+```
 
